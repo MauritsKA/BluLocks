@@ -7,16 +7,20 @@ use App;
 
 class HomeController extends Controller
 {
-   
-    public function __construct()
-    {
-        
-    }
-
-    
+      
     public function index()
     {
         return view('home');
+    }
+
+    public function tech()
+    {
+        return view('tech');
+    }
+
+     public function team()
+    {
+        return view('team');
     }
 
    

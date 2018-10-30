@@ -1,7 +1,6 @@
 @extends('layouts.master')
 
 @section('content')
-<a id="top"></a>
 
 <div class="cover">
    <video autoplay loop muted poster="screenshot.jpg" id="backgroundvid"><source src="{{url('/videos/teaser.mp4')}}" type="video/mp4"></video>
@@ -9,7 +8,7 @@
 <div class="coveroverlay">
   <div class="container">
 
-    <h1>Finally World's<span> Most Effective</span> Integrated <span>Bike Lock</span> Has Arrived</h1>
+    <h1>World's<span> Safests</span> Bike Lock Has Arrived</h1>
 
   </div>
 </div>
@@ -17,23 +16,22 @@
 
 <section class="projects section">
    <div class="container">
-   <h3>Technology</h3>
+   <h3>How does it work?</h3>
     <p>BluLocks is an elegant system that fits neatly inside the saddle tube. The mechanism blocks the pedals and locks the plug-in chain in one smooth turn of the key. To access the lock you would have to breach the frame, making the bicycle worthless. We prelaunched the product in our BluLocks original bike.</p>
   </div>
 </section>
 
 <section class="publications section">
    <div class="container">
-   <h3>For who?</h3>
- <p>Consumers, go to shop</p>
- <p>Companies, go to company section</p>
+   <h3>Get your own lock / bike</h3>
+ <p>Link to shop</p>
   </div>
 </section>
 
 <section class="practices section">
    <div class="container">
-   <h3>Already adopted by</h3>
-    <p>Company A,B, C slider</p>
+   <h3>Media section</h3>
+    <p>Pictures/</p>
   </div>
 </section>
 

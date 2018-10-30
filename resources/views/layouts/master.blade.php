@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="{{url('images/favicon.ico')}}" sizes="32x32" />
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'BluLocks') }}</title>
     <meta name="description" content="World's Most Effective Bike Lock">
     <meta name="author" content="Maurits Korthals Altes">
     
@@ -25,6 +25,8 @@
 </head>
 
 <body>
+
+    <a id="top"></a>
 
  @include('layouts.nav')
 
